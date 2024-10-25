@@ -1,0 +1,39 @@
+/* General body styling */
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Galindo', sans-serif;
+}
+
+/* Styling the canvas */
+canvas {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00bfff;
+    background-image: url('https://assets.codepen.io/12192911/DALL%C2%B7E+2024-10-23+22.54.45+-+A+seamless+underwater-themed+background+for+a+2D+endless+runner+game+with+muted%2C+duller+colors+to+suit+its+role+as+a+background.+The+scene+features+a+.png');
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-position: 0 0;
+}
+
+/* Hide the game over container by default */
+#game-over-container {
+    display: none;
+}
+
+/* Styling the buttons and text */
+button {
+    font-family: 'Galindo', sans-serif;
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+h2, #game-over {
+    color: white;
+    font-size: 48px;
+}
